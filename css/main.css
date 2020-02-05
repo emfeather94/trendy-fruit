@@ -5,16 +5,42 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-
+  box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+}
 
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Gravitas One', cursive;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Rammetto One', cursive;
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
+body {
+  font-family: "Open Sans", sans-serif;
   margin: 0;
+}
+
+.watermelon h2 {
+  font-family: "Rammetto One", cursive;
+}
+
+.watermelon {
+  background-color: #e97065;
+}
+
+.starfruit h2 {
+  font-family: "Gravitas One", cursive;
+}
+
+.starfruit {
+  background-color: #fbd25e;
+}
+
+.persimmon h2 {
+  font-family: Comfortaa, cursive;
+}
+
+.persimmon {
+  background-color: #e86033;
 }
